@@ -1178,6 +1178,7 @@ Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+<<<<<<< HEAD
   [1m[35m (8.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Migrating to CreateAuthors (20160119185347)
@@ -1382,3 +1383,5 @@ Processing by PostsController#show as HTML
   Rendered posts/show.html.erb within layouts/application (2.2ms)
 Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 0.2ms)
   [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+=======
+>>>>>>> d7b5a04a8a02ddee5a7016aca5fcb7bb60f77c44
